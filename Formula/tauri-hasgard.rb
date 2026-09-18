@@ -1,13 +1,13 @@
 class TauriHasgard < Formula
   desc "Native automation and testing bridge for Tauri 2 applications"
   homepage "https://github.com/nyssance/tauri-hasgard"
-  version "0.4.1"
+  version "0.5.0"
   license "Apache-2.0"
 
   depends_on :macos
   depends_on arch: :arm64
-  url "https://github.com/nyssance/tauri-hasgard/releases/download/v0.4.1/tauri-hasgard-0.4.1-aarch64-apple-darwin.tar.gz"
-  sha256 "737de16b5f471208cde8886a15fced26a5d36b6634e06497f0e83946d5b2ff66"
+  url "https://github.com/nyssance/tauri-hasgard/releases/download/v0.5.0/tauri-hasgard-0.5.0-aarch64-apple-darwin.tar.gz"
+  sha256 "7463cabad491cfc658b2829c0ab6540da2a1fb804159fc3a8720871362003bf1"
 
   def install
     bin.install "tauri-hasgard"
